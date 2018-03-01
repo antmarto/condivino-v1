@@ -46,5 +46,4 @@ class FEvento extends Fdb{
         return $evento;
     }
 }
-
 ?>
