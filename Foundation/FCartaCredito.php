@@ -20,5 +20,4 @@ class FCartaCredito extends Fdb{
         parent::store($carta);
     }	
 }
-
 ?>
