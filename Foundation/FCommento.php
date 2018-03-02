@@ -15,7 +15,7 @@ class FCommento extends Fdb {
     /**
      * Menorizza sul DB lo stato dell'oggetto $object
      * @access public
-     * @param $carta String
+     * @param $object String
      */
     public function store( $object){
         $id = parent::store($object);
@@ -23,7 +23,7 @@ class FCommento extends Fdb {
     }
 
     /**
-     * Carica l'array dei commenti relativi al vino $vinoID
+     * Carica l'array $arrayCommenti dei commenti relativi al vino $vinoID
      * @access public
      * @param $vinoID String
      */
@@ -34,5 +34,4 @@ class FCommento extends Fdb {
         return $arrayCommenti;
     }
 }
-
 ?>

@@ -34,5 +34,4 @@ class FEventoPartecipante extends Fdb {
         $item->id=$id;
     }
 }
-
 ?>
